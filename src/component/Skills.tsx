@@ -18,7 +18,7 @@ export const Skills = () => {
   return (
     <div
       id="skills"
-      className="h-auto md:h-full text-gray-600 dark:text-gray-300 flex flex-col w-full justify-start bg-white px-5 py-5 md:py-20  md:px-20 dark:bg-black"
+      className="h-auto md:h-screen overflow-hidden text-gray-600 dark:text-gray-300 flex flex-col w-full justify-start bg-white px-5 py-5 md:py-20  md:px-20 dark:bg-black"
     >
       <Fade direction="up" duration={3000} triggerOnce>
         <div className="flex justify-center flex-col gap-3  items-center w-full mb-5">
