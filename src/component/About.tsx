@@ -46,13 +46,13 @@ export const About = () => {
             continue to grow.
           </p>
 
-          <p className="text-lg">
+          {/* <p className="text-lg">
             I started my journey as a frontend developer in 2021, and since
             then, I've been growing and improving my skills. I take on new
             challenges and enjoy learning the latest technologies. Now, I
             specialize in building modern web applications using React.js,
             TypeScript, Tailwindcss and other cutting-edge tools
-          </p>
+          </p> */}
 
           <p className="text-lg">
             I enjoy connecting and collaborating with others! Feel free to check
