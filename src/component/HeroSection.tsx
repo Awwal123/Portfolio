@@ -1,29 +1,32 @@
 import Profile from "../assets/images/Profile.jpg";
-import Location from "../assets/images/location.png";
-import Location2 from "../assets/images/location-light.png";
+// import Location from "../assets/images/location.png";
+// import Location2 from "../assets/images/location-light.png";
 import { Fade } from "react-awesome-reveal";
 export const Herosection = () => {
   return (
-    <Fade direction="up" duration={3000} triggerOnce>
-      <div className="h-screen text-gray-600  flex-col-reverse flex gap-5  md:flex-row  md:justify-between items-center dark:text-gray-400 px-5 py-5 md:px-20 md:py-20 dark:bg-black">
+    
+      <div className="h-auto md:h-screen text-gray-600  flex-col-reverse flex gap-5  px-5 pb-5  md:flex-row  md:justify-between items-center dark:text-gray-400 md:px-20 md:py-20 dark:bg-black">
+        <Fade direction="up" duration={3000} triggerOnce>
         <div className="w-full md:w-[70%]">
           <h1 className="font-bold text-3xl md:text-6xl text-gray-800 dark:text-gray-200">
             Hi, I’m Muhammad Awwal 👋
           </h1>
           <p className=" mt-3 text-lg">
-            I'm a full stack developer (React.js & Node.js) with a focus on
+            I'm a frontend  developer, specializing in React. with a focus on
             creating (and occasionally designing) exceptional digital
             experiences that are fast, accessible, visually appealing, and
             responsive. Even though I have been creating web applications for
-            over 7 years, I still love it as if it was something new.
+            over 4 years, I still love it as if it was something new.
           </p>
 
           {/* socials */}
-          <div className="hidden md:flex justify-center flex-col">
+          <div className=" md:flex justify-center flex-col">
             <div className="flex justify-center gap-2 mt-4 md:mt-12 flex-col">
-              <div className="flex gap-3">
-                <img src={Location} className="hidden dark:block" />
-                <img src={Location2} className="block dark:hidden" />
+              <div className="flex items-center gap-3">
+                <i
+                  className="fa-solid fa-location-dot"
+                  style={{ fontSize: "20px" }}
+                ></i>
                 <p>Niger State, Nigeria</p>
               </div>
 
@@ -32,7 +35,29 @@ export const Herosection = () => {
                 <p>Available for new projects</p>
               </div>
             </div>
-            
+
+            <div className="flex gap-6 items-center mt-7">
+              <a href="https://github.com/Awwal123" target="_blank">
+                <i
+                  className="fa-brands fa-github"
+                  style={{ fontSize: "26px", cursor: "pointer" }}
+                ></i>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/muhammad-awwal-869104310/"
+                target="_blank"
+              >
+                <i
+                  className="fa-brands fa-linkedin"
+                  style={{
+                    fontSize: "26px",
+                    cursor: "pointer",
+                    marginTop: "2px",
+                  }}
+                ></i>
+              </a>
+            </div>
           </div>
         </div>
 
@@ -46,7 +71,8 @@ export const Herosection = () => {
             />
           </div>
         </div>
+        </Fade>
       </div>
-    </Fade>
+
   );
 };
