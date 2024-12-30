@@ -4,19 +4,19 @@ import Profile from "../assets/images/Profile.jpg";
 import { Fade } from "react-awesome-reveal";
 export const Herosection = () => {
   return (
-    
-      <div className="h-auto md:h-screen text-gray-600  flex-col-reverse flex gap-5  px-5 pb-5  md:flex-row  md:justify-between items-center dark:text-gray-400 md:px-20 md:py-20 dark:bg-black">
-        <Fade direction="up" duration={3000} triggerOnce>
+    <div className="h-auto md:h-screen text-gray-600  flex-col-reverse flex gap-5  px-5 pb-5  md:flex-row  md:justify-between items-center dark:text-gray-400 md:px-20 md:py-20 dark:bg-black">
+      <Fade direction="up" duration={3000} triggerOnce>
         <div className="w-full md:w-[70%]">
           <h1 className="font-bold text-3xl md:text-6xl text-gray-800 dark:text-gray-200">
             Hi, I’m Muhammad Awwal 👋
           </h1>
           <p className=" mt-3 text-lg">
-            I'm a frontend  developer, specializing in React. with a focus on
-            creating (and occasionally designing) exceptional digital
-            experiences that are fast, accessible, visually appealing, and
-            responsive. Even though I have been creating web applications for
-            over 4 years, I still love it as if it was something new.
+            I'm a frontend
+            developer specializing in React, with a focus on crafting (and
+            sometimes designing) exceptional digital experiences that are fast,
+            accessible, visually engaging, and responsive. My enthusiasm for
+            building web applications hasn’t faded; I approach every project
+            with the same excitement and curiosity as when I first started.
           </p>
 
           {/* socials */}
@@ -71,8 +71,7 @@ export const Herosection = () => {
             />
           </div>
         </div>
-        </Fade>
-      </div>
-
+      </Fade>
+    </div>
   );
 };
