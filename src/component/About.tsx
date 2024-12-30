@@ -36,11 +36,14 @@ export const About = () => {
             Curious about me? Here you have it:
           </h2>
           <p className="text-lg">
-            I'm a passionate, self-driven frontend developer specializing in
-            React.js. I love bringing the visual and functional aspects of
-            digital products to life. I'm focused on creating great user
-            experiences, pixel-perfect designs, and writing clean, readable, and
-            high-performance code.
+            I started my journey as a frontend developer in 2021, and since
+            then, I've been growing and improving my skills. I take on new
+            challenges and enjoy learning the latest technologies. Now, I
+            specialize in building modern web applications using React.js,
+            TypeScript, Tailwindcss, and other cutting-edge tools. While my
+            focus has been on frontend development, I’ve also explored backend
+            technologies and look forward to diving deeper into them as I
+            continue to grow.
           </p>
 
           <p className="text-lg">
@@ -59,7 +62,8 @@ export const About = () => {
           </p>
 
           <p className="text-lg">
-          One more thing—I’m open to internship and freelance opportunities! Feel free to reach out and say hi; I’d love to connect.😉
+            One more thing—I’m open to internship and freelance opportunities!
+            Feel free to reach out and say hi; I’d love to connect.😉
           </p>
         </div>
         {/* </Fade> */}
