@@ -9,7 +9,7 @@ export const About = () => {
     >
       <Fade direction="up" duration={3000} triggerOnce>
         <div className="flex justify-center  items-center w-full mb-5">
-          <div className="w-[100px] text-center h-[28px] bg-gray-300 dark:bg-gray-500 rounded-lg text-gray-700 dark:text-gray-200">
+          <div className="w-[100px] text-center h-[28px] bg-gray-300 dark:bg-gray-500 rounded-xl text-gray-700 dark:text-gray-200">
             About me
           </div>
         </div>

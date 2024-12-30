@@ -3,6 +3,7 @@ import { Navbar } from "./component/Navbar";
 import { GsapAnimation } from "./component/GsapAnimation";
 import { Herosection } from "./component/HeroSection";
 import { About } from "./component/About";
+import { Skills } from "./component/Skills";
 // import { Section } from "./Section";
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
           <Navbar />
           <Herosection />
           <About />
+          <Skills/>
         </>
       )}
     </div>
