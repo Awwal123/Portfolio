@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import { Navbar } from "./component/Navbar";
 import { GsapAnimation } from "./component/GsapAnimation";
 import { Herosection } from "./component/HeroSection";
+import { About } from "./component/About";
+// import { Section } from "./Section";
 
 function App() {
   const [animationComplete, setAnimationComplete] = useState(false);
@@ -28,6 +30,7 @@ function App() {
         <>
           <Navbar />
           <Herosection />
+          <About />
         </>
       )}
     </div>
