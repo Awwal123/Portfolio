@@ -18,7 +18,7 @@ export const Skills = () => {
   return (
     <div
       id="skills"
-      className="h-auto md:h-screen overflow-hidden text-gray-600 dark:text-gray-300 flex flex-col w-full justify-start bg-white px-5 py-5 md:py-20  md:px-20 dark:bg-black"
+      className="h-auto md:min-h-screen overflow-hidden text-gray-600 dark:text-gray-300 flex flex-col w-full justify-start bg-white px-5 py-5 md:py-20  md:px-20 dark:bg-black"
     >
       <Fade direction="up" duration={3000} triggerOnce>
         <div className="flex justify-center flex-col gap-3  items-center w-full mb-5">
@@ -32,7 +32,7 @@ export const Skills = () => {
       </Fade>
 
       {/* my skills */}
-      <Fade direction="right" duration={3000} triggerOnce>
+      <Fade direction="up" duration={3000} triggerOnce>
       <div className="grid grid-cols-2  sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5 mt-3 ">
         <div className="flex flex-col items-center gap-3">
           <img src={Js} alt="" className="w-16 h-16" />

@@ -4,6 +4,7 @@ import { GsapAnimation } from "./component/GsapAnimation";
 import { Herosection } from "./component/HeroSection";
 import { About } from "./component/About";
 import { Skills } from "./component/Skills";
+import { Projects } from "./component/Projects";
 // import { Section } from "./Section";
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           <Herosection />
           <About />
           <Skills/>
+          <Projects />
         </>
       )}
     </div>
