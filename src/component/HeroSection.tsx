@@ -4,7 +4,7 @@ import Profile from "../assets/images/Profile.jpg";
 import { Fade } from "react-awesome-reveal";
 export const Herosection = () => {
   return (
-    <div className="h-auto md:h-auto text-gray-600  flex-col-reverse flex gap-5  px-5 pb-5  md:flex-row  md:justify-between items-center dark:text-gray-400 md:px-20 md:py-20 dark:bg-black">
+    <div className="h-auto sm:h-screen md:h-full  text-gray-600  flex-col-reverse flex gap-5  px-5 pb-5  md:flex-row  md:justify-between items-center dark:text-gray-400 md:px-20 md:py-20 dark:bg-black">
       <Fade direction="up" duration={3000} triggerOnce>
         <div className="w-full md:w-[70%]">
           <h1 className="font-bold text-3xl md:text-6xl text-gray-800 dark:text-gray-200">
