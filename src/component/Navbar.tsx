@@ -46,15 +46,16 @@ export const Navbar = () => {
         } absolute md:static top-16 left-0 w-full shadow-lg md:shadow-none md:w-auto bg-white dark:bg-gray-900 md:flex flex-col md:flex-row items-center md:gap-5 md:justify-between md:text-lg pb-7 md:pb-0 z-50`}
       >
         <div className="flex flex-col md:flex-row md:gap-5 w-full md:w-auto">
-          <Link
-            to="about"
+        <Link
+            to="projects"
             smooth={true}
             duration={500}
             className="py-2 md:py-0 px-4 md:px-0 cursor-pointer"
-            onClick={() => setIsNavOpen(false)} // Close navbar on click
+            onClick={() => setIsNavOpen(false)}
           >
-            About
+            Projects
           </Link>
+         
           <Link
             to="skills"
             smooth={true}
@@ -65,13 +66,13 @@ export const Navbar = () => {
             Skills
           </Link>
           <Link
-            to="projects"
+            to="about"
             smooth={true}
             duration={500}
             className="py-2 md:py-0 px-4 md:px-0 cursor-pointer"
-            onClick={() => setIsNavOpen(false)}
+            onClick={() => setIsNavOpen(false)} // Close navbar on click
           >
-            Projects
+            About
           </Link>
           <Link
             to="contact"

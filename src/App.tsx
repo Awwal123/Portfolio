@@ -36,9 +36,10 @@ function App() {
         <>
           <Navbar />
           <Herosection />
-          <About />
-          <Skills/>
           <Projects />
+          
+          <Skills/>
+          <About />
           <ContactMe />
           <Footer />
           <ToastContainer />
