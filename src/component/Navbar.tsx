@@ -83,7 +83,11 @@ export const Navbar = () => {
             Contact
           </Link>
         </div>
-        <div className={`${isNavOpen ? "block w-full mt-7 mb-7 md:hidden" : "hidden"}`}>
+        <div
+          className={`${
+            isNavOpen ? "block w-full mt-7 mb-7 md:hidden" : "hidden"
+          }`}
+        >
           <hr className=":mt-0 md:mb-0" />
         </div>
         <hr className="hidden md:block border-gray-600 w-6 transform rotate-90 mt-2 md:mx-3" />
@@ -101,32 +105,40 @@ export const Navbar = () => {
             onClick={toggleTheme}
             className="cursor-pointer dark:hidden w-6 h-6"
           />
-                   <div className="w-32 h-10 flex items-center justify-center font-medium rounded-lg bg-gray-900 text-white hover:bg-gray-500 hover:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-white dark:bg-white dark:text-gray-900 cursor-pointer">
-            Download CV
-          </div>
+          <a href="/cv/Muhammad_Awwal_CV.pdf" download="Muhammad_Awwal_CV.pdf">
+            <div className="w-32 h-10 flex items-center justify-center font-medium rounded-lg bg-gray-900 text-white hover:bg-gray-500 hover:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-white dark:bg-white dark:text-gray-900 cursor-pointer">
+              Download CV
+            </div>
+          </a>
         </div>
-        
+
         <div className="block md:hidden gap-4 w-full pl-6 pr-6 items-center">
           <div className=" md:hidden flex justify-between w-full">
             <p className="block md:hidden">Switch Theme</p>
-          <img
-            src={Moon}
-            alt="Dark mode"
-            onClick={toggleTheme}
-            className="cursor-pointer hidden dark:block w-10 h-10"
-          />
-          <img
-            src={Sun}
-            alt="Light mode"
-            onClick={toggleTheme}
-            className="cursor-pointer dark:hidden w-10 h-10"
-          />
+            <img
+              src={Moon}
+              alt="Dark mode"
+              onClick={toggleTheme}
+              className="cursor-pointer hidden dark:block w-10 h-10"
+            />
+            <img
+              src={Sun}
+              alt="Light mode"
+              onClick={toggleTheme}
+              className="cursor-pointer dark:hidden w-10 h-10"
+            />
           </div>
 
           <div className="justify-center flex items-center pb-4">
-          <div className="w-40 h-10 flex items-center justify-center  font-medium rounded-lg bg-gray-900 text-white hover:bg-gray-500 hover:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-white dark:bg-white dark:text-gray-900 cursor-pointer">
-            Download CV
-          </div>
+            <a
+              href="/cv/Muhammad_Awwal_CV.pdf"
+              download="Muhammad_Awwal_CV.pdf"
+            >
+              {" "}
+              <div className="w-40 h-10 flex items-center justify-center  font-medium rounded-lg bg-gray-900 text-white hover:bg-gray-500 hover:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-white dark:bg-white dark:text-gray-900 cursor-pointer">
+                Download CV
+              </div>
+            </a>
           </div>
         </div>
       </div>

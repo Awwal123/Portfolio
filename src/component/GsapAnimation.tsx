@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { LoadingPage } from "./LoadingPage";
 
 interface GsapAnimationProps {
-  onComplete: () => void; // Callback function to notify animation completion
+  onComplete: () => void;
 }
 
 export const GsapAnimation: React.FC<GsapAnimationProps> = ({ onComplete }) => {
@@ -11,7 +11,7 @@ export const GsapAnimation: React.FC<GsapAnimationProps> = ({ onComplete }) => {
     let tl = gsap.timeline({
       onComplete: () => {
         if (onComplete) {
-          onComplete(); // Notify parent that animation is done
+          onComplete(); 
         }
       },
     });
@@ -43,7 +43,7 @@ export const GsapAnimation: React.FC<GsapAnimationProps> = ({ onComplete }) => {
     });
 
     return () => {
-      tl.kill(); // Cleanup GSAP timeline on component unmount
+      tl.kill(); 
     };
   }, [onComplete]);
 

@@ -5,6 +5,10 @@ import { Herosection } from "./component/HeroSection";
 import { About } from "./component/About";
 import { Skills } from "./component/Skills";
 import { Projects } from "./component/Projects";
+import { ContactMe } from "./component/ContactMe";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { Footer } from "./component/Footer";
 // import { Section } from "./Section";
 
 function App() {
@@ -35,6 +39,9 @@ function App() {
           <About />
           <Skills/>
           <Projects />
+          <ContactMe />
+          <Footer />
+          <ToastContainer />
         </>
       )}
     </div>
