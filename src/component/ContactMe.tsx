@@ -92,7 +92,12 @@ export const ContactMe = () => {
           {isSending ? "Sending..." : "Send"}
         </button>
       </form>
-
+      {status && (
+        <div className="mt-5 text-center text-lg">
+          <p className="hidden">{status}</p>
+        </div>
+      )
+    }
       <ToastContainer
         position="bottom-left"
         autoClose={5000}
