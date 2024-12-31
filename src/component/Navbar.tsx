@@ -7,7 +7,7 @@ import Sun from "../assets/images/sun.png";
 import Moon from "../assets/images/moon.png";
 
 export const Navbar = () => {
-  const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
+  const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   const toggleNavbar = () => {
