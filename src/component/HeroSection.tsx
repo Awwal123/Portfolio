@@ -63,11 +63,11 @@ export const Herosection = () => {
 
         {/* profile image */}
         <div className="">
-          <div className="w-[250px]  h-[280px] md:w-[280px] md:h-[320px] mt-20 bg-gray-200 dark:bg-gray-600 relative">
+          <div className="w-[250px]  h-[300px] md:w-[280px] md:h-[320px] mt-20 bg-gray-200 dark:bg-gray-600 relative">
             <img
               src={Profile}
               alt="p"
-              className="dark:border-black w-[240px] h-[280px] md:w-[280px] md:h-auto border-white border-8 md:border-8 -mt-8 md:-ml-12 md:-mt-20  mb-10 absolute"
+              className="dark:border-black w-[240px] h-[300px] md:w-[280px] md:h-auto border-white border-8 md:border-8 -mt-8 md:-ml-12 md:-mt-20  mb-10 absolute"
             />
           </div>
         </div>
