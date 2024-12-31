@@ -70,7 +70,7 @@ export const Navbar = () => {
             smooth={true}
             duration={500}
             className="py-2 md:py-0 px-4 md:px-0 cursor-pointer"
-            onClick={() => setIsNavOpen(false)} // Close navbar on click
+            onClick={() => setIsNavOpen(false)} 
           >
             About
           </Link>
