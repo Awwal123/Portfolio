@@ -9,6 +9,14 @@ export const Projects = () => {
   const projectData = [
     {
       id: 1,
+      title: "FullStack E-commerce App",
+      description:
+        "A fully functional online store with user authentication, shopping cart, and more.",
+      image: Ecommerce,
+      link: "https://fullstack-ecommerce-app-wine.vercel.app/"
+    },
+    {
+      id: 2,
       title: "Chatbot App",
       description:
         "This chatbot uses Gemini under the hood to provide smart and helpful responses.",
@@ -21,7 +29,7 @@ export const Projects = () => {
       description:
         "A fully functional online store with user authentication, shopping cart, and more.",
       image: Ecommerce,
-      link: "https://ecommerce-app-self-one.vercel.app/",
+      link: "https://fullstack-ecommerce-app-wine.vercel.app/"
     },
     {
       id: 3,
