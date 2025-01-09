@@ -23,14 +23,14 @@ export const Projects = () => {
       image: Chatbot,
       link: "https://my-chatbot-mu-mauve.vercel.app/",
     },
-    {
-      id: 2,
-      title: "FullStack E-commerce App",
-      description:
-        "A fully functional online store with user authentication, shopping cart, and more.",
-      image: Ecommerce,
-      link: "https://fullstack-ecommerce-app-wine.vercel.app/"
-    },
+    // {
+    //   id: 2,
+    //   title: "FullStack E-commerce App",
+    //   description:
+    //     "A fully functional online store with user authentication, shopping cart, and more.",
+    //   image: Ecommerce,
+    //   link: "https://fullstack-ecommerce-app-wine.vercel.app/"
+    // },
     {
       id: 3,
       title: "To-Do App",
