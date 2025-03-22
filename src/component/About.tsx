@@ -1,4 +1,5 @@
-import Profile from "../assets/images/Profile2.jpg";
+// import Profile from "../assets/images/Profile2.jpg";
+import Profile3 from "../assets/images/Profile3.png"
 import { Fade } from "react-awesome-reveal";
 
 export const About = () => {
@@ -22,7 +23,7 @@ export const About = () => {
           <div>
             <div className="w-[250px] h-[300px] md:w-[280px] md:h-[320px] mt-20 bg-gray-300 dark:bg-gray-600 relative">
               <img
-                src={Profile}
+                src={Profile3}
                 alt="p"
                 className="dark:border-gray-900 w-[240px] h-[300px] md:w-[280px] md:h-auto border-gray-200 border-8 md:border-8 -mt-8 md:ml-10 md:-mt-20 mb-10 absolute"
               />
