@@ -4,6 +4,7 @@ import Chatbot from "../assets/images/chat.png";
 import EasyBank from "../assets/images/Easybank.png";
 import Manage from "../assets/images/Manage.png";
 import Todo from "../assets/images/Todo.png";
+import TodoNinja from "../assets/images/TodoNinja.png"
 
 export const Projects = () => {
   const projectData = [
@@ -23,14 +24,6 @@ export const Projects = () => {
       image: Chatbot,
       link: "https://my-chatbot-mu-mauve.vercel.app/",
     },
-    // {
-    //   id: 2,
-    //   title: "FullStack E-commerce App",
-    //   description:
-    //     "A fully functional online store with user authentication, shopping cart, and more.",
-    //   image: Ecommerce,
-    //   link: "https://fullstack-ecommerce-app-wine.vercel.app/"
-    // },
     {
       id: 3,
       title: "To-Do App",
@@ -54,6 +47,14 @@ export const Projects = () => {
         "This is also a static landing page gotten from Frontend Mentor challenge.",
       image: Manage,
       link: "https://manage-landing-page-peach-seven.vercel.app/",
+    },
+    {
+      id: 6,
+      title: "Todo Ninja",
+      description:
+        "My first Vue project for TodoNinja, created to explore the Vue and Vuetify frameworks.",
+      image: TodoNinja,
+      link: "https://todo-ninja-three.vercel.app/",
     },
   ];
 
