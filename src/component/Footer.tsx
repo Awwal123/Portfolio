@@ -8,7 +8,6 @@ export const Footer = () => {
           <div className="text-center sm:text-left">
             <p>awwalsalakomuhammed@gmail.com</p>
           </div>
-
           <div className="flex justify-center items-center gap-3 text-center w-full">
             <i
               className="fa-regular fa-copyright hidden md:inline"
@@ -18,7 +17,6 @@ export const Footer = () => {
               2025 Designed | Coded with ❤️️ by Muhammad Awwal
             </p>
           </div>
-
           <div className="flex gap-7 justify-center sm:justify-end">
             <a href="https://github.com/Awwal123" target="_blank">
               <i
