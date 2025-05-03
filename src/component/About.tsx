@@ -1,5 +1,5 @@
 // import Profile from "../assets/images/Profile2.jpg";
-import Profile3 from "../assets/images/Profile3.png"
+import Profile3 from "../assets/images/Profile3.png";
 import { Fade } from "react-awesome-reveal";
 
 export const About = () => {
@@ -40,11 +40,11 @@ export const About = () => {
             I began my journey as a frontend developer and have been continually
             growing and refining my skills ever since. I embrace new challenges
             and enjoy learning the latest technologies. Currently, I specialize
-            in building modern web applications using React.js, TypeScript,
-            TailwindCSS, and other cutting-edge tools. While my primary focus is
-            on frontend development, I’ve also explored backend technologies and
-            look forward to diving deeper into them as I continue to advance in
-            my career.
+            in building modern web and mobile applications using React.js, React
+            Native, TypeScript, TailwindCSS, and other cutting-edge tools. While
+            my primary focus is on frontend development, I’ve also explored
+            backend technologies and look forward to diving deeper into them as
+            I continue to advance in my career.
           </p>
 
           <p className="text-lg">
