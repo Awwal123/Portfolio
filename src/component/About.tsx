@@ -41,7 +41,7 @@ export const About = () => {
             growing and refining my skills ever since. I embrace new challenges
             and enjoy learning the latest technologies. Currently, I specialize
             in building modern web and mobile applications using React.js, React
-            Native, TypeScript, TailwindCSS, and other cutting-edge tools. While
+            Native, TypeScript, TailwindCSS, and other frontend tools. While
             my primary focus is on frontend development, I’ve also explored
             backend technologies and look forward to diving deeper into them as
             I continue to advance in my career.
@@ -55,7 +55,7 @@ export const About = () => {
           </p>
 
           <p className="text-lg">
-            One more thing—I’m open to internship and freelance opportunities!
+            One more thing, I’m open to internship and freelance opportunities!
             Feel free to reach out and say hi; I’d love to connect.😉
           </p>
         </div>

@@ -3,6 +3,7 @@ import Js from "../assets/images/icon-javscript.png";
 import Ts from "../assets/images/icon-typescript.png";
 import Rc from "../assets/images/icon-react.png";
 import RCNative from "../assets/images/React-Native.png"
+import Laravel from "../assets/images/laravel.png"
 import Tailwind from "../assets/images/Tailwind.png";
 import Figma from "../assets/images/Figma.png";
 import Firebase from "../assets/images/Firebase.png";
@@ -53,6 +54,11 @@ export const Skills = () => {
         <div className="flex flex-col items-center gap-3">
           <img src={RCNative} alt="" className="w-16 h-16" />
           <p>React Native</p>
+        </div>
+
+          <div className="flex flex-col items-center gap-3">
+          <img src={Laravel} alt="" className="w-16 h-16" />
+          <p>Laravel</p>
         </div>
 
         <div className="flex flex-col items-center gap-3">
