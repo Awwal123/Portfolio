@@ -10,6 +10,7 @@ export const Herosection = () => {
           <h1 className="font-bold text-3xl md:text-6xl text-gray-800 dark:text-gray-200">
             Hi, I’m Muhammad Awwal 👋
           </h1>
+          
           <p className=" mt-3 text-lg">
             I'm a frontend
             developer specializing in React, with a focus on crafting (and
