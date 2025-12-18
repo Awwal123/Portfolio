@@ -14,6 +14,7 @@ import Css from "../assets/images/Css.png";
 import Php from "../assets/images/Php.png"
 import Node from "../assets/images/icon-nodejs.png"
 import MongoDB from "../assets/images/Vector.png"
+import Vue from "../assets/images/vue.png"
 // import nn from "../assets/images/"
 
 export const Skills = () => {
@@ -64,6 +65,10 @@ export const Skills = () => {
         <div className="flex flex-col items-center gap-3">
           <img src={Tailwind} alt="" className="w-16 h-16" />
           <p>Tailwindcss</p>
+        </div>
+        <div className="flex flex-col items-center gap-3">
+          <img src={Vue} alt="" className="w-16 h-16" />
+          <p>Vue.js</p>
         </div>
 
         <div className="flex flex-col items-center gap-3">
