@@ -15,7 +15,8 @@ import Php from "../assets/images/Php.png"
 import Node from "../assets/images/icon-nodejs.png"
 import MongoDB from "../assets/images/Vector.png"
 import Vue from "../assets/images/vue.png"
-// import nn from "../assets/images/"
+import flutter from "../assets/images/flutter.png"
+
 
 export const Skills = () => {
   return (
@@ -71,6 +72,11 @@ export const Skills = () => {
           <p>Vue.js</p>
         </div>
 
+         <div className="flex flex-col items-center gap-3">
+          <img src={Php} alt="" className="w-20 h-16" />
+          <p>Php</p>
+        </div>
+
         <div className="flex flex-col items-center gap-3">
           <img src={Figma} alt="" className="w-14 h-16" />
           <p>Figma</p>
@@ -112,14 +118,11 @@ export const Skills = () => {
         </p>
       </div>
       <div className="grid grid-cols-2  sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5 mt-3 ">
-        <div className="flex flex-col items-center gap-3">
-          <img src={Php} alt="" className="w-20 h-16" />
-          <p>Php</p>
-        </div>
+       
 
         <div className="flex flex-col items-center gap-3">
-          <img src={Node} alt="" className="w-15 h-16" />
-          <p>Node.js</p>
+          <img src={flutter} alt="" className="w-15 h-16" />
+          <p>Flutter</p>
         </div>
 
         <div className="flex flex-col items-center gap-3">

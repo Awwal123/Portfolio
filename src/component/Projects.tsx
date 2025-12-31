@@ -10,12 +10,20 @@ import DassArt from "../assets/images/dass_art.png";
 import VerifyPoint from "../assets/images/verify-point.png";
 import TadExpress from "../assets/images/tadExpress.png";
 import TechSolutins from "../assets/images/techsolutins.png";
+import Promptflow from "../assets/images/propmt_flow.png"
 import { useState } from "react";
 export const Projects = () => {
   const [showAll, setShowAll] = useState(false);
 
   const projectData = [
     { id: 1, title: "Cushy Access Go", description: "A production q-commerce mobile app built with React Native, enabling users to order groceries, food, logistics services, and consult doctors etc.", image: CushyAcess, link: "https://apps.apple.com/us/app/cushy-access/id6755833733" },
+     { 
+    id: 13, 
+    title: "PromptFlow AI", 
+    description: "A full-stack AI chat application built with Laravel and Vue, allowing users to create chats, send messages, and get smart AI responses using Google API.", 
+    image: Promptflow, 
+    link: "https://my-chatbot-v2-psi.vercel.app/"
+  },
     { id: 7, title: "DaasArt", description: "A full-stack web platform showcasing crack glass art, allowing users to place custom orders and make secure payments via Paystack.", image: DassArt, link: "https://www.daasart.art/" },
     { id: 8, title: "Verify Point", description: "A background verification platform for criminal, education, employment, and NIN checks, built to streamline identity and compliance processes.", image: VerifyPoint, link: "https://verifypointng.com/" },
     { id: 12, title: "TadExpress Driver", description: "A logistics web app for verified drivers to accept pickups, navigate deliveries with Google Maps, and track package drop-offs.", image: TadExpress, link: "https://tadexpress-web.vercel.app/" },

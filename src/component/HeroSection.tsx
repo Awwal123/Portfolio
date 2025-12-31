@@ -10,14 +10,14 @@ export const Herosection = () => {
           <h1 className="font-bold text-3xl md:text-6xl text-gray-800 dark:text-gray-200">
             Hi, I’m Muhammad Awwal 👋
           </h1>
-          
-          <p className=" mt-3 text-lg">
-            I'm a frontend
-            developer specializing in React, with a focus on crafting (and
-            sometimes designing) exceptional digital experiences that are fast,
-            accessible, visually engaging, and responsive. My enthusiasm for
-            building web applications hasn’t faded; I approach every project
-            with the same excitement and curiosity as when I first started.
+
+          <p className="mt-3 text-lg">
+            I'm a full-stack developer specializing in React and Laravel, with a
+            focus on crafting exceptional digital experiences that are fast,
+            accessible, visually engaging, and responsive. I enjoy building both
+            the frontend interfaces and backend systems that power them, and I
+            approach every project with the same excitement and curiosity as
+            when I first started coding.
           </p>
 
           {/* socials */}
