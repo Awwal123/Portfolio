@@ -12,7 +12,7 @@ import Git from "../assets/images/icon-git.png";
 import HT from "../assets/images/Html.png";
 import Css from "../assets/images/Css.png";
 import Php from "../assets/images/Php.png"
-import Node from "../assets/images/icon-nodejs.png"
+// import Node from "../assets/images/icon-nodejs.png"
 import MongoDB from "../assets/images/Vector.png"
 import Vue from "../assets/images/vue.png"
 import flutter from "../assets/images/flutter.png"
