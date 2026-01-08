@@ -3,6 +3,7 @@ import Js from "../assets/images/icon-javscript.png";
 import Ts from "../assets/images/icon-typescript.png";
 import Rc from "../assets/images/icon-react.png";
 import RCNative from "../assets/images/React-Native.png"
+import Laravel from "../assets/images/laravel.png"
 import Tailwind from "../assets/images/Tailwind.png";
 import Figma from "../assets/images/Figma.png";
 import Firebase from "../assets/images/Firebase.png";
@@ -11,9 +12,11 @@ import Git from "../assets/images/icon-git.png";
 import HT from "../assets/images/Html.png";
 import Css from "../assets/images/Css.png";
 import Php from "../assets/images/Php.png"
-import Node from "../assets/images/icon-nodejs.png"
+// import Node from "../assets/images/icon-nodejs.png"
 import MongoDB from "../assets/images/Vector.png"
-// import nn from "../assets/images/"
+import Vue from "../assets/images/vue.png"
+import flutter from "../assets/images/flutter.png"
+
 
 export const Skills = () => {
   return (
@@ -55,9 +58,23 @@ export const Skills = () => {
           <p>React Native</p>
         </div>
 
+          <div className="flex flex-col items-center gap-3">
+          <img src={Laravel} alt="" className="w-16 h-16" />
+          <p>Laravel</p>
+        </div>
+
         <div className="flex flex-col items-center gap-3">
           <img src={Tailwind} alt="" className="w-16 h-16" />
           <p>Tailwindcss</p>
+        </div>
+        <div className="flex flex-col items-center gap-3">
+          <img src={Vue} alt="" className="w-16 h-16" />
+          <p>Vue.js</p>
+        </div>
+
+         <div className="flex flex-col items-center gap-3">
+          <img src={Php} alt="" className="w-20 h-16" />
+          <p>Php</p>
         </div>
 
         <div className="flex flex-col items-center gap-3">
@@ -101,14 +118,11 @@ export const Skills = () => {
         </p>
       </div>
       <div className="grid grid-cols-2  sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5 mt-3 ">
-        <div className="flex flex-col items-center gap-3">
-          <img src={Php} alt="" className="w-20 h-16" />
-          <p>Php</p>
-        </div>
+       
 
         <div className="flex flex-col items-center gap-3">
-          <img src={Node} alt="" className="w-15 h-16" />
-          <p>Node.js</p>
+          <img src={flutter} alt="" className="w-15 h-16" />
+          <p>Flutter</p>
         </div>
 
         <div className="flex flex-col items-center gap-3">

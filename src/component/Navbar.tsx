@@ -28,7 +28,7 @@ export const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white shadow-lg font-medium md:font-normal text-gray-700 flex items-center justify-between h-16 px-5 md:px-20 dark:bg-gray-900  dark:text-gray-300">
+    <nav className="fixed w-full top-0 left-0 z-50 bg-white shadow-lg font-medium md:font-normal  text-gray-700 flex items-center justify-between h-16 px-5 md:px-20 dark:bg-gray-900  dark:text-gray-300">
       <div className="flex items-center">
         <img src={Logo} className="h-8 w-9 filter dark:invert" alt="Logo" />
       </div>
