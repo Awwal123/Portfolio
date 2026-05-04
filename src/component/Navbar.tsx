@@ -43,7 +43,7 @@ export const Navbar = () => {
       <div
         className={`${
           isNavOpen ? "flex" : "hidden"
-        } absolute md:static top-16 left-0 w-full min-h-screen md:min-h-auto shadow-lg md:shadow-none md:w-auto bg-white dark:bg-gray-900 md:flex flex-col md:flex-row items-center md:gap-5 md:justify-between md:text-lg pb-7 md:pb-0 z-50`}
+        } absolute md:static top-16 left-0 w-full min-h-screen md:min-h-auto shadow-lg md:shadow-none md:w-auto bg-gray-900 dark:bg-gray-900 md:flex flex-col md:flex-row items-center md:gap-5 md:justify-between md:text-lg pb-7 md:pb-0 z-50`}
       >
         <div className="flex flex-col   md:flex-row md:gap-5 w-full md:w-auto">
         <Link
