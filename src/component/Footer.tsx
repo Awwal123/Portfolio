@@ -14,7 +14,7 @@ export const Footer = () => {
               style={{ fontSize: "15px", marginTop: "2px" }}
             ></i>
             <p className="dark:text-white text-sm">
-              2025 Designed | Coded with ❤️️ by Muhammad Awwal
+              2026 Designed | Coded with ❤️️ by Muhammad Awwal
             </p>
           </div>
           <div className="flex gap-7 justify-center sm:justify-end">

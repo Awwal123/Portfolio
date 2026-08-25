@@ -106,7 +106,7 @@ export const Navbar = () => {
             onClick={toggleTheme}
             className="cursor-pointer dark:hidden w-6 h-6"
           />
-          <a href="/cv/Muhammad_Awwal_CV.pdf" download="Muhammad_Awwal_CV.pdf">
+          <a href="/cv/Muhammad_Awwal_Salako_CV.pdf" download="Muhammad_Awwal_Salako_CV.pdf">
             <div className="w-32 h-10 flex items-center justify-center font-medium rounded-lg bg-gray-900 text-white hover:bg-gray-500 hover:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-white dark:bg-white dark:text-gray-900 cursor-pointer">
               Download CV
             </div>
@@ -132,8 +132,8 @@ export const Navbar = () => {
 
           <div className="justify-center flex items-center pb-4">
             <a
-              href="/cv/Muhammad_Awwal_CV.pdf"
-              download="Muhammad_Awwal_CV.pdf"
+              href="/cv/Muhammad_Awwal_Salako_CV.pdf"
+              download="Muhammad_Awwal_Salako_CV.pdf"
             >
               {" "}
               <div className="w-40 h-10 flex items-center justify-center  font-medium rounded-lg bg-gray-900 text-white hover:bg-gray-500 hover:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-white dark:bg-white dark:text-gray-900 cursor-pointer">
