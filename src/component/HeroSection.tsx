@@ -1,4 +1,4 @@
-import Profile from "../assets/images/Profile.jpg";
+import Profile from "../assets/images/Profile.png";
 
 import { Fade } from "react-awesome-reveal";
 export const Herosection = () => {

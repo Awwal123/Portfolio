@@ -148,7 +148,7 @@ const projectData: Project[] = [
     stack: ["Next.js", "React", "Tailwind CSS", "TypeScript"],
     stats: [
       { label: "Role", value: "Frontend Developer" },
-      { label: "Focus", value: "UI + Responsiveness" },
+      { label: "Focus", value: "Web" },
       { label: "Platform", value: "Web" },
     ],
     image: TechSolutins,
