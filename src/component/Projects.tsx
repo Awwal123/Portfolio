@@ -4,7 +4,7 @@ import DassArt from "../assets/images/dass_art.png";
 import VerifyPoint from "../assets/images/verify-point.png";
 import TadExpress from "../assets/images/tadExpress.png";
 import TechSolutins from "../assets/images/techsolutins.png";
-
+import PulseChat from "../assets/images/pulse-chat.png"
 import { useState } from "react";
 
 interface ProjectStat {
@@ -77,6 +77,41 @@ const projectData: Project[] = [
     image: DassArt,
     link: "https://www.daasart.art/",
   },
+  {
+  id: 20,
+  title: "Pulse Chat",
+  category: "Real-Time Messaging & Social Networking",
+  role: "Full-Stack Developer",
+  description:
+    "A real-time messaging application built with Laravel and Vue.js, enabling users to create accounts, connect with friends, exchange private messages, and receive instant notifications.",
+  narrative:
+    "Designed and developed Pulse Chat with a Vue.js frontend and Laravel backend, building the authentication system, friend management, and private messaging features. Implemented OTP-based authentication, optional security PIN verification, and token-based API authentication with Laravel Sanctum. Integrated Laravel Reverb and Laravel Echo for real-time messaging and application events, alongside Firebase Cloud Messaging for push notifications. Deployed the frontend on Vercel, the backend and real-time server on Render, and the MySQL database on Aiven.",
+  keySolutions: [
+    "Built a Laravel REST API with OTP-based registration and login, optional security PIN verification, and Laravel Sanctum authentication.",
+    "Implemented friend requests, friend suggestions, and friendship management to help users discover and connect with others.",
+    "Developed private conversations and messaging with persistent message storage in MySQL.",
+    "Integrated Laravel Reverb and Laravel Echo to deliver real-time messages and listen for application events.",
+    "Implemented message read receipts, typing indicators, and Firebase Cloud Messaging push notifications.",
+    "Deployed the application using Vercel, Render, and Aiven, with environment-based configuration for service integration.",
+  ],
+  stack: [
+    "Laravel",
+    "PHP",
+    "Vue.js",
+    "MySQL",
+    "Laravel Sanctum",
+    "Laravel Reverb",
+    "Laravel Echo",
+    "Firebase Cloud Messaging",
+  ],
+  stats: [
+    { label: "Role", value: "Full-Stack Developer" },
+    { label: "Platform", value: "Web" },
+    { label: "Development", value: "Frontend & Backend" },
+  ],
+  image: PulseChat,
+  link: "https://pulsechat-frontend.vercel.app/",
+},
   {
     id: 12,
     title: "TadExpress Driver",
