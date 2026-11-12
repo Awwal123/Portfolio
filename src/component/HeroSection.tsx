@@ -65,7 +65,7 @@ export const Herosection = () => {
             </a>
 
             <a
-              href="https://www.linkedin.com/in/muhammad-awwal-869104310/"
+              href="https://www.linkedin.com/in/dev-ameer-5b22a6447/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
